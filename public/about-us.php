@@ -14,6 +14,7 @@
         <link href="vendors/linears-icon/style.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        
         <!-- Extra plugin css -->
         <link href="vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet">
         <link href="vendors/bootatrap-date-time/bootstrap-datetimepicker.min.css" rel="stylesheet">
@@ -45,14 +46,14 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="header_contact_details">
-                            <a href="table.html"><i class="fa fa-phone"></i>+1 (168) 314 5016</a>
-                            <a href="event.html"><i class="fa fa-envelope-o"></i>+1 (168) 314 5016</a>
+                            <a href="#"><i class="fa fa-phone"></i>+1 (168) 314 5016</a>
+                            <a href="#"><i class="fa fa-envelope-o"></i>+1 (168) 314 5016</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event_btn_inner">
-                            <a class="event_btn" href="#"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
-                            <a class="event_btn" href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
+                            <a class="event_btn" href="table.php"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
+                            <a class="event_btn" href="event.php"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -88,38 +89,38 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="dropdown submenu">
+                            <li><a href="index.php">Home</a></li>
+                            <li class="dropdown submenu active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="about-us2.html">About Us2</a></li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="about-us2.php">About Us2</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="menu-grid.html">Menu Grid</a></li>
-                                    <li><a href="menu-list.html">Menu List</a></li>
+                                    <li><a href="menu-grid.php">Menu Grid</a></li>
+                                    <li><a href="menu-list.php">Menu List</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="gallery.html">Gallery</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="event.html">Event</a></li>
-                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="event.php">Event</a></li>
+                                    <li><a href="table.php">Table</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-gallery.html">Blog Gallery</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="blog-gallery.php">Blog Gallery</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact US</a></li>
+                            <li><a href="contact.php">Contact US</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -132,112 +133,92 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_content">
-                    <h4>Our Gallery</h4>
+                    <h4>About Us</h4>
                     <a href="#">Home</a>
-                    <a class="active" href="gallery.html">Gallery</a>
+                    <a class="active" href="#">About Us</a>
                 </div>
             </div>
         </section>
         <!--================End Banner Area =================-->
         
-        <!--================Our Gallery Area =================-->
-        <section class="our_gallery_area">
+        <!--================About Us Content Area =================-->
+        <section class="about_us_content">
             <div class="container">
-                <div class="row our_gallery_ms_inner">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-1.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                <div class="row about_inner_item">
+                    <div class="col-md-6">
+                        <div class="about_left_content">
+                            <h4>Since 1962</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typeting, remaining essentially unchanged.</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> The standard chunk of Lorem Ipsum used.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Sed ut perspiciatis unde omnis iste natus error.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> At vero eos et accusamus et iusto odio dignissimos.</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-2.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="about_right_image">
+                            <img src="img/about-item/about-item-1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-3.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-12">
+                        <div class="about_single_content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sture there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-4.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                </div>
+                <div class="row about_inner_item">
+                    <div class="col-md-6">
+                        <div class="about_right_image">
+                            <img src="img/about-item/about-item-2.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-5.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="about_left_content">
+                            <h4>About Our Menu</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typeting, remaining essentially unchanged.</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> The standard chunk of Lorem Ipsum used.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Sed ut perspiciatis unde omnis iste natus error.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> At vero eos et accusamus et iusto odio dignissimos.</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-6.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-12">
+                        <div class="about_single_content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sture there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-7.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                </div>
+                <div class="row about_inner_item">
+                    <div class="col-md-6">
+                        <div class="about_left_content">
+                            <h4>Best Services</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typeting, remaining essentially unchanged.</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> The standard chunk of Lorem Ipsum used.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Sed ut perspiciatis unde omnis iste natus error.</a></li>
+                                <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> At vero eos et accusamus et iusto odio dignissimos.</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-8.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="about_right_image">
+                            <img src="img/about-item/about-item-3.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="our_gallery_item">
-                            <img src="img/gallery/our-ms-gallery/gallery-ms-9.jpg" alt="">
-                            <div class="our_gallery_hover">
-                                <a href="#"><i class="fa fa-link"></i></a>
-                                <a href="#"><h5>Kitchen Chef</h5></a>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                    <div class="col-md-12">
+                        <div class="about_single_content">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sture there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Our Gallery Area =================-->
+        <!--================End About Us Content Area =================-->
         
         <!--================End Recent Blog Area =================-->
         <footer class="footer_area">
@@ -342,7 +323,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
         <script src="vendors/countdown/jquery.countdown.js"></script>
         <script src="vendors/js-calender/zabuto_calendar.min.js"></script>
-
+        <!--gmaps Js-->
+<!--        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>-->
+<!--        <script src="js/gmaps.min.js"></script>-->
+        
+        
+<!--        <script src="js/video_player.js"></script>-->
         <script src="js/theme.js"></script>
     </body>
 </html>

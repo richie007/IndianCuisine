@@ -52,8 +52,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="event_btn_inner">
-                            <a class="event_btn" href="table.html"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
-                            <a class="event_btn" href="event.html"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
+                            <a class="event_btn" href="table.php"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
+                            <a class="event_btn" href="event.php"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -89,38 +89,38 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="about-us2.html">About Us2</a></li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="about-us2.php">About Us2</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="menu-grid.html">Menu Grid</a></li>
-                                    <li><a href="menu-list.html">Menu List</a></li>
+                                    <li><a href="menu-grid.php">Menu Grid</a></li>
+                                    <li><a href="menu-list.php">Menu List</a></li>
                                 </ul>
                             </li>
-                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li class="dropdown submenu active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="event.html">Event</a></li>
-                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="event.php">Event</a></li>
+                                    <li><a href="table.php">Table</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-gallery.html">Blog Gallery</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="blog-gallery.php">Blog Gallery</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact US</a></li>
+                            <li><a href="contact.php">Contact US</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -135,7 +135,7 @@
                 <div class="banner_content">
                     <h4>Table Form</h4>
                     <a href="#">Home</a>
-                    <a class="active" href="table.html">Table Form</a>
+                    <a class="active" href="table.php">Table Form</a>
                 </div>
             </div>
         </section>

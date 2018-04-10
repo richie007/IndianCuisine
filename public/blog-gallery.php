@@ -53,8 +53,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="event_btn_inner">
-                            <a class="event_btn" href="event.html"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
-                            <a class="event_btn" href="table.html"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
+                            <a class="event_btn" href="table.php"><i class="fa fa-table" aria-hidden="true"></i>Book a Table</a>
+                            <a class="event_btn" href="event.php"><i class="fa fa-calendar" aria-hidden="true"></i>Book an Event</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -90,38 +90,38 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="about-us2.html">About Us2</a></li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="about-us2.php">About Us2</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="menu-grid.html">Menu Grid</a></li>
-                                    <li><a href="menu-list.html">Menu List</a></li>
+                                    <li><a href="menu-grid.php">Menu Grid</a></li>
+                                    <li><a href="menu-list.php">Menu List</a></li>
                                 </ul>
                             </li>
-                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="event.html">Event</a></li>
-                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="event.php">Event</a></li>
+                                    <li><a href="table.php">Table</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-gallery.html">Blog Gallery</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="blog-gallery.php">Blog Gallery</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact US</a></li>
+                            <li><a href="contact.php">Contact US</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -134,10 +134,10 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_content">
-                    <h4>Blog List</h4>
+                    <h4>Blog Gallery</h4>
                     <a href="#">Home</a>
-                    <a href="blog.html">Blog</a>
-                    <a class="active" href="blog.html">List</a>
+                    <a href="blog.php">Blog</a>
+                    <a class="active" href="blog-gallery.php">Blog Gallery</a>
                 </div>
             </div>
         </section>
@@ -148,195 +148,129 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="row">
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-1.jpg" alt="">
+                        <div class="row m0">
+                            <article class="blog_gallery_item row m0">
+                                <div class="blog_date">
+                                    <div class="media">
+                                        <div class="media-left">
+                                           <h4>14</h4>
+                                           <h4>FEB</h4>
+                                        </div>
+                                        <div class="media-body"><i class="fa fa-picture-o"></i></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                                <h3>Image Post Type Restaurant News</h3>
+                                <div class="blog_gallery_img">
+                                    <img src="img/blog/blog-gallery/blog-g-1.jpg" alt="">
+                                    <div class="blog_social">
                                         <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
-                                        </div>
-                                        <div class="pull-right">
+                                            <h4>Posted by <a href="http://rocky.obaidul.com">Rocky</a></h4>
                                             <a href="#"><i class="fa fa-eye"></i>206</a>
                                             <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
+                                            <a href="#"><i class="fa fa-heart-o"></i>56</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <h5>Share :</h5>
+                                            <ul class="social_icon">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident... <a href="blog-detail.html">Read More</a></p>
                             </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-2.jpg" alt="">
+                            <article class="blog_gallery_item row m0">
+                                <div class="blog_date">
+                                    <div class="media">
+                                        <div class="media-left">
+                                           <h4>14</h4>
+                                           <h4>FEB</h4>
+                                        </div>
+                                        <div class="media-body"><i class="fa fa-camera-retro"></i></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
+                                <h3>Gallery Post Type Restaurant News</h3>
+                                <div class="blog_gallery_img">
+                                    <div class="blog_gallery_slider">
+                                        <div class="item">
+                                            <img src="img/blog/blog-gallery/blog-g-3.jpg" alt="">
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="item">
+                                            <img src="img/blog/blog-gallery/blog-g-1.jpg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/blog/blog-gallery/blog-g-3.jpg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/blog/blog-gallery/blog-g-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="blog_social">
+                                        <div class="pull-left">
+                                            <h4>Posted by <a href="http://rocky.obaidul.com">Rocky</a></h4>
                                             <a href="#"><i class="fa fa-eye"></i>206</a>
                                             <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
+                                            <a href="#"><i class="fa fa-heart-o"></i>56</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <h5>Share :</h5>
+                                            <ul class="social_icon">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident... <a href="blog-detail.html">Read More</a></p>
                             </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-3.jpg" alt="">
+                            <article class="blog_gallery_item row m0">
+                                <div class="blog_date">
+                                    <div class="media">
+                                        <div class="media-left">
+                                           <h4>14</h4>
+                                           <h4>FEB</h4>
+                                        </div>
+                                        <div class="media-body"><i class="fa fa-youtube-play"></i></div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
+                                <h3>Video Post Type Restaurant News</h3>
+                                <div class="blog_gallery_img">
+                                    <div class="row m0 video_row">
+                                        <iframe id="video" src="http://www.youtube.com/embed/ZOVvJJDuAvo?enablejsapi=1&html5=1&rel=0&fs=0&loop=1&showinfo=0&disablekb=1&controls=0&color=white&playlist=ZOVvJJDuAvo"></iframe>
+                                        <div class="overlay" id="video_overlay">
+                                            <div class="overlay_bg"></div>
+                                            <div class="play_pause row m0">
+                                                <i class="fa fa-youtube-play" aria-hidden="true" id="play_btn"></i>
+                                                <i class="fa fa-pause" aria-hidden="true" id="pause_btn"></i>
+                                            </div>
                                         </div>
-                                        <div class="pull-right">
+                                    </div>
+                                    <div class="blog_social">
+                                        <div class="pull-left">
+                                            <h4>Posted by <a href="http://rocky.obaidul.com">Rocky</a></h4>
                                             <a href="#"><i class="fa fa-eye"></i>206</a>
                                             <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-4.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
+                                            <a href="#"><i class="fa fa-heart-o"></i>56</a>
                                         </div>
                                         <div class="pull-right">
-                                            <a href="#"><i class="fa fa-eye"></i>206</a>
-                                            <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
+                                            <h5>Share :</h5>
+                                            <ul class="social_icon">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                            </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-5.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
-                                        </div>
-                                        <div class="pull-right">
-                                            <a href="#"><i class="fa fa-eye"></i>206</a>
-                                            <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-6.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
-                                        </div>
-                                        <div class="pull-right">
-                                            <a href="#"><i class="fa fa-eye"></i>206</a>
-                                            <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-7.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
-                                        </div>
-                                        <div class="pull-right">
-                                            <a href="#"><i class="fa fa-eye"></i>206</a>
-                                            <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="blog_list_item row m0">
-                                <div class="col-md-6">
-                                    <div class="blog_list_img">
-                                        <img src="img/blog/blog-list/blog-list-8.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="blog_list_content">
-                                        <h3>List Post Type Blog News</h3>
-                                        <h6>Posted by <a href="#">admin</a>  at 04 Dec, 2017</h6>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                                        <div class="pull-left">
-                                            <a class="event_btn" href="#">READ MORE</a>
-                                        </div>
-                                        <div class="pull-right">
-                                            <a href="#"><i class="fa fa-eye"></i>206</a>
-                                            <a href="#"><i class="fa fa-comment-o"></i>19</a>
-                                            <a href="#"><i class="fa fa-heart-o"></i>206</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip extra eaet commodo and consequat. Duis aute irure dolor in reprehderit in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident... <a href="blog-detail.html">Read More</a></p>
                             </article>
                         </div>
-                        <nav aria-label="Page navigation" class="blog_pagination">
-                            <ul class="pagination">
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li>
-                                    <a href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
                     </div>
                     <div class="col-md-4">
                         <div class="blog_right_sidebar">
@@ -534,6 +468,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery-2.1.4.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+
         <!-- Extra plugin js -->
         <script src="vendors/bootstrap-selector/bootstrap-select.js"></script>
         <script src="vendors/bootatrap-date-time/bootstrap-datetimepicker.min.js"></script>
@@ -542,7 +477,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
         <script src="vendors/countdown/jquery.countdown.js"></script>
         <script src="vendors/js-calender/zabuto_calendar.min.js"></script>
-        
+
+        <script src="js/video_player.js"></script>
         <script src="js/theme.js"></script>
     </body>
 </html>

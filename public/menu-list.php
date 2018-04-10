@@ -46,8 +46,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="header_contact_details">
-                            <a href="table.html"><i class="fa fa-phone"></i>+1 (168) 314 5016</a>
-                            <a href="event.html"><i class="fa fa-envelope-o"></i>+1 (168) 314 5016</a>
+                            <a href="table.php"><i class="fa fa-phone"></i>+1 (168) 314 5016</a>
+                            <a href="event.php"><i class="fa fa-envelope-o"></i>+1 (168) 314 5016</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -89,38 +89,38 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="about-us2.html">About Us2</a></li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="about-us2.php">About Us2</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="menu-grid.html">Menu Grid</a></li>
-                                    <li><a href="menu-list.html">Menu List</a></li>
+                                    <li><a href="menu-grid.php">Menu Grid</a></li>
+                                    <li><a href="menu-list.php">Menu List</a></li>
                                 </ul>
                             </li>
-                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="gallery.php">Gallery</a></li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="event.html">Event</a></li>
-                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="event.php">Event</a></li>
+                                    <li><a href="table.php">Table</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-gallery.html">Blog Gallery</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="blog-gallery.php">Blog Gallery</a></li>
+                                    <li><a href="blog-details.php">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contact US</a></li>
+                            <li><a href="contact.php">Contact US</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -135,7 +135,7 @@
                 <div class="banner_content">
                     <h4>Menu List</h4>
                     <a href="#">Home</a>
-                    <a class="active" href="menu-list.html">Menu</a>
+                    <a class="active" href="menu-list.php">Menu</a>
                 </div>
             </div>
         </section>
